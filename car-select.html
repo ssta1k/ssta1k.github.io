@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:400,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="car-selectcss.css">
+        <title>Выбор автомобиля</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <img src="img/logo-index.png" alt="wait">
+                    </div>
+        
+                    <nav class="nav">
+                        <a class="nav__link" href="index.html">Главаная</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Intro -->
+        <div class="intro">
+            <div class="box">
+                <img class="img" src="img/car_puzzle.png">
+                <h4>Марка:</h4>
+                <select size="1"  name="hero[]">
+                    <option disabled>Выберите марку машины</option>
+                    <option value="Toyota">Toyota</option>
+                    <option selected value="BMW">BMW</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Nissan">Nissan</option>
+                </select>
+
+                <h4>Модель:</h4>
+                <select size="1"  name="hero[]">
+                    <option disabled>Выберите модель машины</option>
+                    <option value="GT86">GT86</option>
+                    <option selected value="GTR">GTR</option>
+                    <option value="M5 Competion">M5 Competion</option>
+                    <option value="AMG GT">AMG GT</option>
+                    <option value="CRV">CRV</option>
+                </select>
+            
+        
+                <h4>Цвет:</h4>
+                <select size="1"  name="hero[]" >
+                    <option disabled>Выберите цвет машины</option>
+                    <option value="Черный">Черный</option>
+                    <option selected value="Серый">Серый</option>
+                    <option value="Белый">Белый</option>
+                    <option value="Красный">Красный</option>
+                </select>
+            
+                <h4>Тип двигателя:</h4>
+                <select size="1"  name="hero[]" style="width: 150px;">
+                    <option disabled>Выберите тип двигателя</option>
+                    <option value="Дизельный">Дизельный</option>
+                    <option selected value="Бензиновый">Бензиновый</option>
+                </select>
+            
+                <h4>Тип КПП:</h4>
+                <select size="1"  name="hero[]" style="width: 150px;">
+                    <option disabled>Выберите тип коробки передач</option>
+                    <option value="МКП">МКП</option>
+                    <option selected value="АКП">АКП</option>
+                </select>
+                <br>
+                <button class="btn_search  btn--red"><h2>Выбрать</h2></button>
+                <p>
+                <button class="btn_search  btn--blue"><h2>Удалить</h2></button>             
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
